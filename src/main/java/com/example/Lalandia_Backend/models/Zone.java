@@ -26,6 +26,7 @@ public class Zone {
     }
     public void setMaximumGuests(int maximumGuests) {
         MaximumGuests = maximumGuests;
+
     }
 
     public Zone(int zoneNumber, int actualGuests, int maximumGuests) {
