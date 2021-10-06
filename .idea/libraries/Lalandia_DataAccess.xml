@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Lalandia_DataAccess">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Lalandia_DataAccess/out/artifacts/Lalandia_DataAccess_jar/Lalandia_DataAccess.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

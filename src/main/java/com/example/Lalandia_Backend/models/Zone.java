@@ -18,21 +18,18 @@ public class Zone {
     }
 
     //Setters
-    public void setPlaceName(String placeName) {
+    public void setZoneNumber(int zoneNumber) {
         this.zoneNumber = zoneNumber;
     }
     public void setActualGuests(int actualGuests) {
         this.actualGuests = actualGuests;
     }
-    public void setMaximumGuests(int maximumGuests) {
-        MaximumGuests = maximumGuests;
-
-    }
+    public void setMaximumGuests(int maximumGuests) { MaximumGuests = maximumGuests; }
 
     public Zone(int zoneNumber, int actualGuests, int maximumGuests) {
         this.zoneNumber = zoneNumber;
         this.actualGuests = actualGuests;
-        MaximumGuests = maximumGuests;
+        this.MaximumGuests = maximumGuests;
     }
 
 }

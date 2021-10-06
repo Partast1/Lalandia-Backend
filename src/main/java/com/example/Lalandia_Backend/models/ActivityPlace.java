@@ -4,7 +4,7 @@ public class ActivityPlace {
 
     private String placeName;
     private int actualGuests;
-    private int MaximumGuests;
+    private int maximumGuests;
 
     //Getters
     public String getPlaceName() {
@@ -14,7 +14,7 @@ public class ActivityPlace {
         return actualGuests;
     }
     public int getMaximumGuests() {
-        return MaximumGuests;
+        return maximumGuests;
     }
 
     //Setters
@@ -25,13 +25,14 @@ public class ActivityPlace {
         this.actualGuests = actualGuests;
     }
     public void setMaximumGuests(int maximumGuests) {
-        MaximumGuests = maximumGuests;
+        this.maximumGuests = maximumGuests;
     }
+
 
     public ActivityPlace(String placeName, int actualGuests, int maximumGuests) {
         this.placeName = placeName;
         this.actualGuests = actualGuests;
-        MaximumGuests = maximumGuests;
+        this.maximumGuests = maximumGuests;
     }
 
 
